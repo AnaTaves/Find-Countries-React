@@ -29,6 +29,16 @@ const Homepage = () => {
     fetchData();
   }, []);
 
+  //Exhibits the region chosen on the SelectOption
+  const fetchRegion = async (region) => {
+    if(!region) return 
+    const response = await fetch(
+      `https://restcountries.com/v3.1/region/${region}`
+    );
+    const newData = await response.json();
+    await setCountry(newData);
+  };
+
   return (
     <>
       <S.NavContainer>
@@ -36,7 +46,7 @@ const Homepage = () => {
           placeholder="Search Country..."
           handleChange={handleChange}
         />
-        <SelectOption />
+        <SelectOption fetchRegion={fetchRegion} />
       </S.NavContainer>
       <CountryList country={filteredCountries} />
     </>

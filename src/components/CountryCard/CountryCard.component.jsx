@@ -14,7 +14,7 @@ const CountryCard = ({country}) =>(
      <h5>Population: <span>{country.population}</span></h5>
      <h5>Region: <span>{country.region}</span></h5>
      <h5>Capital: <span>{country.capital}</span></h5>
-     <S.LinkContainer to= {`/country/${country.name}`}>Learn More</S.LinkContainer>
+     <S.LinkContainer to= {`/country/${country.name.common}`}>Learn More</S.LinkContainer>
     </S.CountryInfo>
      
    

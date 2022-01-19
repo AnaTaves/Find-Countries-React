@@ -7,6 +7,8 @@ import * as S from "./App-styles";
 import { lightTheme, darkTheme, GlobalStyle } from "./themes/themes";
 
 import Homepage from './pages/Homepage/Homepage.component';
+import Country from './pages/Country/Country.component';
+
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -27,6 +29,8 @@ function App() {
   
    <Routes>
      <Route exact path='/' element={<Homepage/>}/>
+     <Route path='/country/:name' element={<Country/>}/>
+     
    </Routes>
     </ThemeProvider>
    

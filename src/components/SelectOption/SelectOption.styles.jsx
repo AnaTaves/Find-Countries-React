@@ -2,9 +2,8 @@ import styled from 'styled-components';
 
 export const SelectContainer = styled.select`
 border:none;
-margin: 0 auto;
-padding:15px;
-
+padding: 10px;
+margin-bottom: 30px;
 &:hover{
   cursor:pointer;
 }
