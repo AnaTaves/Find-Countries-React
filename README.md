@@ -1,3 +1,20 @@
+# Find Countries
+
+Aplicação na qual o usuário pode encontrar informações sobre todos os países do mundo. Feita para o desafio do site [Front End Mentor Challenge](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+
+# Live Version
+A versão demo pode ser acessada [aqui](https://distracted-mccarthy-c01b4f.netlify.app/)
+
+# Tecnologias Utilizadas
+- React
+- [Rest Countries API](https://restcountries.com/)
+- styled-components
+- react-router-dom
+
+
+# Autora
+[Ana Cláudia Tavares](https://www.linkedin.com/in/ana-cl%C3%A1udia-tavares-a842a6102/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
